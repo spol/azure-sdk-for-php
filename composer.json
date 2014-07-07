@@ -17,6 +17,13 @@
     },
     "autoload": {
         "psr-0": { "WindowsAzure\\": "" }
-    }
-    
+    },
+    "include-path": [
+        "../../pear/http_request2",
+        "../../pear/mail_mime",
+        "../../pear/mail_mime-decode",
+        "../../pear/net_url2",
+        "../../pear/pear_exception"
+    ]
+
 }
